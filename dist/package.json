@@ -44,10 +44,10 @@
     },
     "keywords": [
         "javascript",
-        "templateliteral",
-        "taggedtemplate",
-        "taggedliteral",
-        "tagfunction"
+        "html",
+        "unsafe-html",
+        "encode-html",
+        "sanitize-html"
     ],
     "scripts": {
         "test": "echo \"No test specified\""
