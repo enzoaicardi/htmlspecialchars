@@ -1,7 +1,7 @@
 {
     "name": "@enzoaicardi/htmlspecialchars",
     "type": "module",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A utility function for typing html special characters",
     "homepage": "https://github.com/enzoaicardi/htmlspecialchars",
     "bugs": "https://github.com/enzoaicardi/htmlspecialchars/issues",

@@ -10,11 +10,11 @@ _A utility function for typing html special characters_
 
 ## List of all exports
 
--   [x] htmlspecialchars
+-   [x] htmlSpecialChars
 
 ## Usage
 
-**htmlspecialchars** can be useful when you need to securely insert html as text, this same function can also be used for html attribute values.
+**htmlSpecialChars** can be useful when you need to securely insert html as text, this same function can also be used for html attribute values.
 
 Only the following characters are escaped: `&<>"'` and backticks. If you want to escape all html entities, choose a package such as [html-entities](https://github.com/mdevils/html-entities).
 
@@ -28,7 +28,7 @@ console.log(sanitizedHtmlString);
 
 ## Installations
 
-The htmlspecialchars layer is available as **ESModule / IIFE / Commonjs**.
+The htmlspecialchars package is available as **ESModule / IIFE / Commonjs**.
 
 ### NPM Package
 
@@ -37,15 +37,15 @@ npm install @enzoaicardi/htmlspecialchars
 ```
 
 ```js
-import { htmlspecialchars } from "@enzoaicardi/htmlspecialchars"; // es modules
-const { htmlspecialchars } = require("@enzoaicardi/htmlspecialchars"); // commonjs modules
+import { htmlSpecialChars } from "@enzoaicardi/htmlspecialchars"; // es modules
+const { htmlSpecialChars } = require("@enzoaicardi/htmlspecialchars"); // commonjs modules
 ```
 
 ### CDN import
 
 ```js
 // es modules
-import { htmlspecialchars } from "https://cdn.jsdelivr.net/npm/@enzoaicardi/htmlspecialchars@latest/esm/htmlspecialchars.js";
+import { htmlSpecialChars } from "https://cdn.jsdelivr.net/npm/@enzoaicardi/htmlspecialchars@latest/esm/htmlspecialchars.js";
 ```
 
 ```html
@@ -53,6 +53,6 @@ import { htmlspecialchars } from "https://cdn.jsdelivr.net/npm/@enzoaicardi/html
 <script src="https://cdn.jsdelivr.net/npm/@enzoaicardi/htmlspecialchars@latest/iife/htmlspecialchars.js"></script>
 <script>
     // global object destructuration
-    const { htmlspecialchars } = htmlspecialchars;
+    const { htmlSpecialChars } = htmlSpecialChars;
 </script>
 ```
