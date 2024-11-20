@@ -1,0 +1,56 @@
+{
+    "name": "@enzoaicardi/htmlspecialchars",
+    "type": "module",
+    "version": "0.0.0",
+    "description": "A utility function for typing html special characters",
+    "homepage": "https://github.com/enzoaicardi/htmlspecialchars",
+    "bugs": "https://github.com/enzoaicardi/htmlspecialchars/issues",
+    "author": {
+        "name": "Enzo Aicardi",
+        "url": "https://enzo.aicardi.pro"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/enzoaicardi/htmlspecialchars"
+    },
+    "main": "./esm/htmlspecialchars.js",
+    "module": "./esm/htmlspecialchars.js",
+    "browser": "./esm/htmlspecialchars.js",
+    "types": "./index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "require": "./cjs/htmlspecialchars.cjs",
+            "import": "./esm/htmlspecialchars.js",
+            "browser": "./esm/htmlspecialchars.js",
+            "default": "./esm/htmlspecialchars.js"
+        },
+        "./esm": {
+            "types": "./index.d.ts",
+            "default": "./esm/htmlspecialchars.js"
+        },
+        "./cjs": {
+            "types": "./index.d.ts",
+            "default": "./cjs/htmlspecialchars.cjs"
+        },
+        "./umd": {
+            "types": "./index.d.ts",
+            "default": "./umd/htmlspecialchars.js"
+        },
+        "./iife": {
+            "types": "./index.d.ts",
+            "default": "./iife/htmlspecialchars.js"
+        }
+    },
+    "keywords": [
+        "javascript",
+        "templateliteral",
+        "taggedtemplate",
+        "taggedliteral",
+        "tagfunction"
+    ],
+    "scripts": {
+        "test": "echo \"No test specified\""
+    },
+    "license": "GPL-3.0-only"
+}

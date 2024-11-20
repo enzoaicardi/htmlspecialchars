@@ -1,0 +1,1 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).t={})}(this,(function(e){"use strict";const t=/[&<>"'`]/g,o={o:"&amp;",i:"&lt;",p:"&gt;",u:"&quot;",l:"&#039;",h:"&#96;"},n=e=>o[e];e.m=e=>e.replace(t,n)}));
