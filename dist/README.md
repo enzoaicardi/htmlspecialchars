@@ -18,6 +18,8 @@ _A utility function for typing html special characters_
 
 Only the following characters are escaped: `&<>"'` and backticks. If you want to escape all html entities, choose a package such as [html-entities](https://github.com/mdevils/html-entities).
 
+It is exactly the same as [`Bun.escapeHTML(...)`](https://bun.com/docs/guides/util/escape-html).
+
 ```js
 const unsafeHtmlString = `<img onload="alert('XSS')" />`;
 const sanitizedHtmlString = htmlSpecialChars(unsafeHtmlString);
